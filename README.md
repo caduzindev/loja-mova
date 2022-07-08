@@ -1,5 +1,5 @@
 # Loja Mova
-O objetivo deste projeto é construir uma api de loja virtual simples. Onde o cliente pode logar, selecionar produtos para comprar, adicionar itens no carrinho, fazer pedidos e etc.
+O objetivo deste projeto é construir uma api de loja virtual simples. Onde o cliente pode logar, selecionar produtos para comprar, adicionar itens no carrinho, fazer pedidos
 
 ## **Nota**
 - O inventario de produtos pode estar pre-cadastrado em um banco de dados, em memoria... onde você achar melhor.
@@ -14,3 +14,8 @@ O objetivo deste projeto é construir uma api de loja virtual simples. Onde o cl
 - [ ] Deve haver uma rota `/cart/add` onde o `Usuario` adiciona os produtos de seu interesse no carrinho (Usuario precisa estar logado)
 - [ ] Deve haver uma rota `/cart/product/{id}/?quantity={quantidade}` onde o usuario poderá ajusta a quantidade pedida para qualquer produto no carrinho (Usuario precisa estar logado)
 - [ ] Deve haver uma rota `/cart/delete/product/{id}` onde o usuario deleta um produto do carrinho (usuario precisa estar logado)
+- [ ] Deve haver uma rota `/cart/amount` que deve retornar o calculo das somas das quantidades multiplicada pelo preço unitário de cada produto solicitado
+- [ ] Deve haver uma rota `/order/sendOrder` que irá pegar as informações do carrinho do `Usuario` e criará um pedido com valor total da compra,produtos selecionados e informações do `Usuario`
+- [ ] Deve haver uma rota `/order/all` onde irá listar todos os pedidos do `Usuario`
+- [ ] Deve haver uma rota `/order/delete/{id}` onde o `Usuario` poderá deletar um pedido
+- [ ] Deve haver uma rota `/order/show/{id}` que exibe as informações de um pedido
