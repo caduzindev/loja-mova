@@ -2,7 +2,7 @@
 O objetivo deste projeto é construir uma api de loja virtual simples. Onde o cliente pode logar, selecionar produtos para comprar, adicionar itens no carrinho, fazer pedidos
 
 ## **Nota**
-- O inventario de produtos pode estar pre-cadastrado em um banco de dados, em memoria... onde você achar melhor.
+- O inventario de produtos pode estar pre-cadastrado no banco de dados.
 - A autenticação deve ser feita usando JWT
 
 ## **Requisitos**
@@ -19,3 +19,19 @@ O objetivo deste projeto é construir uma api de loja virtual simples. Onde o cl
 - [ ] Deve haver uma rota `/order/all` onde irá listar todos os pedidos do `Usuario` (usuario precisa estar logado)
 - [ ] Deve haver uma rota `/order/delete/{id}` onde o `Usuario` poderá deletar um pedido (usuario precisa estar logado)
 - [ ] Deve haver uma rota `/order/show/{id}` que exibe as informações de um pedido (usuario precisa estar logado)
+
+## **Requisitos BONUS!!!!!**
+Não e obrigatorio fazer estas features abaixo mas se você conseguir, ganhará pontos extras
+- [ ] Se o `Usuario` pedir um quantidade que exceda a quantidade "disponível" do produto, deve ser retornar uma resposta de erro
+- [ ] O usuário pode especificar um endereço de cobrança e envio quando o pedido for feito
+
+## **Obrigatorio ter**
+- PHP
+- Docker
+- Pelo menos 1 teste unitario
+- Mysql como banco de dados
+## **Será um diferencial**
+- Slim 4
+- Testes de Integração
+- Conventional Commits
+- Seguir alguns principios do SOLID
