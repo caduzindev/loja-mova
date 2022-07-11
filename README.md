@@ -2,7 +2,7 @@
 O objetivo deste projeto é construir uma api de loja virtual simples. Onde o cliente pode logar, selecionar produtos para comprar, adicionar itens no carrinho, fazer pedidos
 
 ## **Nota**
-- O inventario produtos deve estar pre-cadastrado no banco de dados.
+- O inventario de produtos deve estar pre-cadastrado no banco de dados.
 - A autenticação deve ser feita usando JWT
 - E **Obrigatorio** ter uma documentação que mostre como rodar seu projeto localmente, para facilitar a avaliação
 - E **Obrigatorio** documentar as rotas... pode documentar elas da forma que você quiser
